@@ -1,0 +1,23 @@
+{
+    "name": "eframe/pagination",
+    "description": "Extend Illuminate Pagination package.",
+    "require": {
+        "illuminate/pagination": "^5.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nazarii Makar",
+            "email": "nazar.makar@magnise.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "EFrame\\Pagination\\": ""
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
